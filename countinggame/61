@@ -1,0 +1,1 @@
+printf 'countinggame\n%.0s' {1..4} > txt.txt; printf "<3%.0s" {1..4} >> txt.txt; echo ""  >> txt.txt; wc -m < txt.txt; rm txt.txt
